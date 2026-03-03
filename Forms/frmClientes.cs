@@ -92,7 +92,7 @@ namespace BarrioTecApp.Forms
            ClienteController controller = new ClienteController();
            controller.Insertar(cliente);
 
-           MessageBox.Show("Cliente guardado correctamente");
+           MessageBox.Show("Cliente guardado correctamente.");
 
            txtNombre.Clear();
            txtNIT.Clear();
