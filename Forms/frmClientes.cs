@@ -112,7 +112,7 @@ namespace BarrioTecApp.Forms
                ClienteController controller = new ClienteController();
                controller.Eliminar(id);
 
-               MessageBox.Show("Cliente eliminado correctamente");
+               MessageBox.Show("Cliente eliminado correctamente.");
 
               CargarClientes();
           }
