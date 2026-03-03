@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarrioTecApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56cc2ab5e12f97129b0c8408c87728dd853c0439")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fa74abff0ee669f881f25723532504895698746")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarrioTecApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarrioTecApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
