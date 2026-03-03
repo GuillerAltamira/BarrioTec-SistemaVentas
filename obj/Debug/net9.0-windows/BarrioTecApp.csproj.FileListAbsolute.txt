@@ -1,0 +1,5 @@
+C:\Actividad07\BarrioTec-SistemaVentas\obj\Debug\net9.0-windows\BarrioTecApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Actividad07\BarrioTec-SistemaVentas\obj\Debug\net9.0-windows\BarrioTecApp.AssemblyInfoInputs.cache
+C:\Actividad07\BarrioTec-SistemaVentas\obj\Debug\net9.0-windows\BarrioTecApp.AssemblyInfo.cs
+C:\Actividad07\BarrioTec-SistemaVentas\obj\Debug\net9.0-windows\BarrioTecApp.csproj.CoreCompileInputs.cache
+C:\Actividad07\BarrioTec-SistemaVentas\obj\Debug\net9.0-windows\BarrioTecApp.sourcelink.json
