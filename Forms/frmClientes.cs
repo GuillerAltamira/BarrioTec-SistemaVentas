@@ -10,17 +10,25 @@ namespace BarrioTecApp.Forms
         private TextBox txtNombre;
         private TextBox txtNIT;
         private Button btnGuardar;
+        private Button btnEliminar;
+        private DataGridView dgvClientes;
 
         public frmClientes()
         {
             InicializarComponentes();
+            CargarClientes();
+        }
+        private void CargarClientes()
+        {
+           ClienteController controller = new ClienteController();
+           dgvClientes.DataSource = controller.ObtenerTodos();
         }
 
         private void InicializarComponentes()
         {
             this.Text = "Gestión de Clientes";
             this.Width = 400;
-            this.Height = 250;
+            this.Height = 400;
 
             Label lblNombre = new Label();
             lblNombre.Text = "Nombre:";
@@ -53,30 +61,61 @@ namespace BarrioTecApp.Forms
             this.Controls.Add(lblNIT);
             this.Controls.Add(txtNIT);
             this.Controls.Add(btnGuardar);
+
+            btnEliminar = new Button();
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.Top = 150;
+            btnEliminar.Left = 120;
+            btnEliminar.Click += BtnEliminar_Click;
+
+            this.Controls.Add(btnEliminar);
+
+            dgvClientes = new DataGridView();
+            dgvClientes.Top = 190;
+            dgvClientes.Left = 20;
+            dgvClientes.Width = 340;
+            dgvClientes.Height = 150;
+
+            this.Controls.Add(dgvClientes);
         }
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-         try
-    {
-        Cliente cliente = new Cliente
-        {
+          try
+          {
+           Cliente cliente = new Cliente
+           {
             Nombre = txtNombre.Text,
             NIT = txtNIT.Text
-        };
+           };
 
-        ClienteController controller = new ClienteController();
-        controller.Insertar(cliente);
+           ClienteController controller = new ClienteController();
+           controller.Insertar(cliente);
 
-        MessageBox.Show("Cliente guardado correctamente");
+           MessageBox.Show("Cliente guardado correctamente");
 
-        txtNombre.Clear();
-        txtNIT.Clear();
-    }
-    catch (Exception ex)
-    {
-        MessageBox.Show("Error: " + ex.Message);
-    }
-}
+           txtNombre.Clear();
+           txtNIT.Clear();
+           CargarClientes();
+           }
+            catch (Exception ex)
+           {
+            MessageBox.Show("Error: " + ex.Message);
+           }
+        }
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvClientes.CurrentRow != null)
+          {
+             int id = (int)dgvClientes.CurrentRow.Cells["Id"].Value;
+
+               ClienteController controller = new ClienteController();
+               controller.Eliminar(id);
+
+               MessageBox.Show("Cliente eliminado correctamente");
+
+              CargarClientes();
+          }
+        }
     }
 }
