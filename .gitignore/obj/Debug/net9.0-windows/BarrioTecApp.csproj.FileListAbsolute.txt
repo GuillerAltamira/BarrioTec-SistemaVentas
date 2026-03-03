@@ -1,14 +1,6 @@
-C:\Actividad_7\BarrioTecApp\bin\Debug\net9.0-windows\BarrioTecApp.exe
-C:\Actividad_7\BarrioTecApp\bin\Debug\net9.0-windows\BarrioTecApp.deps.json
-C:\Actividad_7\BarrioTecApp\bin\Debug\net9.0-windows\BarrioTecApp.runtimeconfig.json
-C:\Actividad_7\BarrioTecApp\bin\Debug\net9.0-windows\BarrioTecApp.dll
-C:\Actividad_7\BarrioTecApp\bin\Debug\net9.0-windows\BarrioTecApp.pdb
 C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.AssemblyInfoInputs.cache
 C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.AssemblyInfo.cs
 C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.csproj.CoreCompileInputs.cache
-C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.dll
-C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\refint\BarrioTecApp.dll
-C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.pdb
-C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.genruntimeconfig.cache
-C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\ref\BarrioTecApp.dll
+C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.sourcelink.json
+C:\Actividad_7\BarrioTecApp\obj\Debug\net9.0-windows\BarrioTecApp.csproj.AssemblyReference.cache
