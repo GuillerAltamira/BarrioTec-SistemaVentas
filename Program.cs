@@ -10,7 +10,7 @@ namespace BarrioTecApp
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmClientes());
+            Application.Run(new frmVentas());
         }
     }
 }
